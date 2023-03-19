@@ -1,0 +1,64 @@
+{
+  "name": "@tsacademy/aws-creds",
+  "version": "1.0.0",
+  "description": "CLI tool to manage AWS Credentials",
+  "repository": {
+    "url": "https://github.com/tsacademy0/aws-creds"
+  },
+  "author": {
+    "name": "Troubleshooting Academy",
+    "url": "https://twitter.com/tsacademy0/"
+  },
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=12.x"
+  },
+  "bin": {
+    "aws-creds": "index.js",
+    "awsc": "index.js"
+  },
+  "files": [
+    "index.js",
+    "utils/*"
+  ],
+  "keywords": [
+    "AWS",
+    "credentials",
+    "AWS credentials",
+    "aws-creds",
+    "aws creds",
+    "aws cli",
+    "aws-cli",
+    "environment variables",
+    "access keys",
+    "session token",
+    "temporary credentials",
+    "IAM credentials",
+    "AWS MFA credentials",
+    "AWS profile",
+    "AWS cli profile",
+    "tsacademy",
+    "Troubleshooting Academy"
+  ],
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\"",
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "chalk": "^5.1.2",
+    "cli-alerts": "^1.2.2",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^3.1.0",
+    "cli-welcome": "^2.2.2",
+    "clipboardy": "^3.0.0",
+    "data-store": "^3.1.0",
+    "enquirer": "^2.3.6",
+    "execa": "^6.1.0",
+    "meow": "^10.1.2",
+    "ora": "^6.1.0"
+  }
+}
