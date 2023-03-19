@@ -50,6 +50,7 @@ npm install -g @tsacademy/aws-creds
 npx @tsacademy/aws-creds
 ```
 
+![📟](./.github/aws-creds-install.gif)
 <br>
 
 ## Usage
@@ -63,6 +64,8 @@ npx @tsacademy/aws-creds
 aws-creds set
 ```
 
+![📟](./.github/aws-creds-set.gif)
+
 ### curr
 
 ###### Return the "Credentials source", "Account ID" and "IAM entity" of currently used credentials
@@ -75,6 +78,9 @@ aws curr
 aws curr --profile <profileName>
 ```
 
+![📟](./.github/aws-creds-curr.gif)
+![📟](./.github/aws-creds-curr-profile.gif)
+
 ### help
 
 ###### Display the help data.
@@ -84,6 +90,8 @@ corona help
 
 corona --help
 ```
+
+![📟](./.github/aws-creds-help.gif)
 
 ### License & Conduct
 
