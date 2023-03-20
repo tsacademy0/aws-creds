@@ -1,6 +1,6 @@
 {
   "name": "@tsacademy/aws-creds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to manage AWS Credentials",
   "repository": {
     "url": "https://github.com/tsacademy0/aws-creds"

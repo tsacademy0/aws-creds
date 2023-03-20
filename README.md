@@ -7,7 +7,7 @@
 
 ⚙️ Manage AWS Credentials ⚙️
 
-<a target="_blank" href="https://www.npmjs.com/package/@tsacademy/aws-creds">![DOWNLOADS](https://img.shields.io/npm/dt/@tsacademy/aws-creds?label=DOWNLOADS%20%20%E2%9D%AF&colorA=FFCD00&colorB=FFCD00&style=flat)</a> <a target="_blank" href="https://tsacademy0.gumroad.com/">![Try aws-creds Pro](https://img.shields.io/badge/aws--creds%20PRO-%E2%86%92-FFCD00?colorA=FFCD00&colorB=FFCD00&style=flat)</a> <a target="_blank" href="https://twitter.com/tsacademy0/">![Follow @tsacademy0 on Twitter](https://img.shields.io/badge/FOLLOW%20@tsacademy0%20%E2%86%92-gray.svg?colorA=FFCD00&colorB=FFCD00&style=flat)</a>
+<a target="_blank" href="https://www.npmjs.com/package/@tsacademy/aws-creds">![DOWNLOADS](https://img.shields.io/npm/dt/@tsacademy/aws-creds?label=DOWNLOADS%20%20%E2%9D%AF&colorA=FFCD00&colorB=FFCD00&style=flat)</a> <a target="_blank" href="https://tsacademy0.gumroad.com/l/aws-creds">![Try aws-creds Pro](https://img.shields.io/badge/aws--creds%20PRO-%E2%86%92-FFCD00?colorA=FFCD00&colorB=FFCD00&style=flat)</a> <a target="_blank" href="https://twitter.com/tsacademy0/">![Follow @tsacademy0 on Twitter](https://img.shields.io/badge/FOLLOW%20@tsacademy0%20%E2%86%92-gray.svg?colorA=FFCD00&colorB=FFCD00&style=flat)</a>
 
 </h4>
 
@@ -15,7 +15,7 @@
 
 # aws-creds
 
-#### Basic Features
+#### Basic Features 🎯
 
 - Manage AWS Credentials to use with **AWS CLI** and **AWS SDKs**
 - Handles both **Long-Term** or **Temporary Credentials** with a single command
@@ -23,7 +23,7 @@
 - Store AWS credentials into **Environment variables**
 - Identify **details about the currently used AWS Credentials**
 
-#### Premium Features
+#### Premium Features 🚀
 
 - Get **MFA authenticated credentials** and configure them into a CLI profile
 - **List** AWS CLI profiles on the machine
@@ -32,7 +32,7 @@
 - **Backup** the `.aws/credentials` file
 - **Import** `.aws/credentials` file's **backup** into a new machine
 
-#### Check out <a target="_blank" href="https://tsacademy0.gumroad.com/">aws-creds PRO 🚀</a>
+#### Check out <a target="_blank" href="https://tsacademy0.gumroad.com/l/aws-creds">aws-creds PRO 🚀</a>
 
 <!-- <br>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-## Install
+## Install 💾
 
 ```sh
 # Install globally (recommended).
@@ -53,9 +53,9 @@ npx @tsacademy/aws-creds
 ![📟](./.github/aws-creds-install.gif)
 <br>
 
-## Usage
+## Usage 🕹
 
-### set
+### 1️⃣ set
 
 ###### Store AWS Credentials into an AWS CLI Profile or in Environment varibales
 
@@ -66,7 +66,7 @@ aws-creds set
 
 ![📟](./.github/aws-creds-set.gif)
 
-### curr
+### 2️⃣ curr
 
 ###### Return the "Credentials source", "Account ID" and "IAM entity" of currently used credentials
 
@@ -81,7 +81,7 @@ aws curr --profile <profileName>
 ![📟](./.github/aws-creds-curr.gif)
 ![📟](./.github/aws-creds-curr-profile.gif)
 
-### help
+### 3️⃣ help
 
 ###### Display the help data.
 
@@ -96,4 +96,4 @@ corona --help
 ### License & Conduct
 
 - MIT © [Troubleshooting Academy](https://twitter.com/tsacademy0/)
-- [Code of Conduct](https://github.com/tsacademy0/aws-creds)
+- [Code of Conduct](https://github.com/tsacademy0/aws-creds/blob/master/CODE-OF-CONDUCT.md)
