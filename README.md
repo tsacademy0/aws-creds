@@ -32,7 +32,7 @@
 - **Backup** the `.aws/credentials` file
 - **Import** `.aws/credentials` file's **backup** into a new machine
 
-#### Check out <a target="_blank" href="https://tsacademy0.gumroad.com/l/aws-creds">aws-creds PRO 🚀</a>
+#### For all the premium features do check out <a target="_blank" href="https://tsacademy0.gumroad.com/l/aws-creds">aws-creds PRO 🙌</a>
 
 <!-- <br>
 
@@ -55,7 +55,9 @@ npx @tsacademy/aws-creds
 
 ## Usage 🕹
 
-### 1️⃣ set
+### Basic Features 🎯
+
+#### 1️⃣ set
 
 ###### Store AWS Credentials into an AWS CLI Profile or in Environment varibales
 
@@ -66,7 +68,7 @@ aws-creds set
 
 ![📟](./.github/aws-creds-set.gif)
 
-### 2️⃣ curr
+#### 2️⃣ curr
 
 ###### Return the "Credentials source", "Account ID" and "IAM entity" of currently used credentials
 
@@ -81,7 +83,7 @@ aws curr --profile <profileName>
 ![📟](./.github/aws-creds-curr.gif)
 ![📟](./.github/aws-creds-curr-profile.gif)
 
-### 3️⃣ help
+#### 3️⃣ help
 
 ###### Display the help data.
 
@@ -93,7 +95,82 @@ corona --help
 
 ![📟](./.github/aws-creds-help.gif)
 
-### License & Conduct
+---
+
+### Premium Features 🚀 ( Available with <a target="_blank" href="https://tsacademy0.gumroad.com/l/aws-creds">aws-creds PRO</a> )
+
+#### 1️⃣ list-profiles
+
+###### Get list of AWS CLI profiles configured in the .aws/credentials file
+
+```sh
+aws-creds list-profiles
+```
+
+![📟](./.github/aws-creds-list-profiles.gif)
+
+#### 2️⃣ delete-profile
+
+###### Delete an AWS CLI profile configured in the .aws/credentials file
+
+```sh
+aws-creds delete-profile
+```
+
+![📟](./.github/aws-creds-delete-profile.gif)
+
+#### 3️⃣ mfa
+
+###### Get MFA Authenticated credentials
+
+**Note:** The process mentioned in the following [AWS article](https://repost.aws/knowledge-center/authenticate-mfa-cli) is automated by this feature to easily get MFA authenticated credentials.
+
+```sh
+# ⭐️ Called once ⭐️ for a specific credential to configure MFA related configuration
+aws-creds mfa configure
+```
+
+![📟](./.github/aws-creds-mfa-configure.gif)
+
+```sh
+# Issue and store MFA authenticated AWS credentials into an AWS CLI profile
+# AWS CLI profile created with following name: ${profileName}-mfa
+aws-creds mfa
+```
+
+![📟](./.github/aws-creds-mfa.gif)
+
+#### 4️⃣ import
+
+###### Import IAM user's credentials downloaded from IAM console (in CSV format) into a CLI profile
+
+```sh
+aws-creds import
+```
+
+![📟](./.github/aws-creds-import.gif)
+
+#### 5️⃣ backup
+
+###### Backup `.aws/credentials` file
+
+```sh
+aws-creds backup
+```
+
+![📟](./.github/aws-creds-backup.gif)
+
+#### 6️⃣ import-backup
+
+###### Import `.aws/credentials` file's backup into a new machine
+
+```sh
+aws-creds import-backup
+```
+
+![📟](./.github/aws-creds-import-backup.gif)
+
+## License & Conduct
 
 - MIT © [Troubleshooting Academy](https://twitter.com/tsacademy0/)
 - [Code of Conduct](https://github.com/tsacademy0/aws-creds/blob/master/CODE-OF-CONDUCT.md)
