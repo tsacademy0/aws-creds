@@ -40,14 +40,19 @@
 
 <br>
 
+## Prerequisites ⚠️
+
+```
+ Node.js version >= 12
+```
+
+<br>
+
 ## Install 💾
 
 ```sh
 # Install globally (recommended).
 npm install -g @tsacademy/aws-creds
-
-# Or run directly with npx (installs CLI on every run).
-npx @tsacademy/aws-creds
 ```
 
 ![📟](./.github/aws-creds-install.gif)

@@ -1,6 +1,6 @@
 {
   "name": "@tsacademy/aws-creds",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to manage AWS Credentials",
   "repository": {
     "url": "https://github.com/tsacademy0/aws-creds"
@@ -51,9 +51,7 @@
     "chalk": "^5.1.2",
     "cli-alerts": "^1.2.2",
     "cli-handle-error": "^4.4.0",
-    "cli-handle-unhandled": "^1.1.1",
     "cli-meow-help": "^3.1.0",
-    "cli-welcome": "^2.2.2",
     "clipboardy": "^3.0.0",
     "data-store": "^3.1.0",
     "enquirer": "^2.3.6",

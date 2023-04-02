@@ -8,7 +8,7 @@ import curr from "./utils/curr.js";
 
 const input = cli.input;
 const flags = cli.flags;
-const { clear, debug } = flags;
+const { debug } = flags;
 
 (async () => {
   try {
