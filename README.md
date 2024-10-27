@@ -93,9 +93,9 @@ aws curr --profile <profileName>
 ###### Display the help data.
 
 ```sh
-corona help
+aws-creds help
 
-corona --help
+aws-creds --help
 ```
 
 ![📟](./.github/aws-creds-help.gif)
